@@ -11,6 +11,7 @@ import { CepComponent } from './cep/cep.component';
 import { CepService } from './cep/cep.service';
 import { CnpjComponent } from './cnpj/cnpj.component';
 import { PrimeNGModule } from './primeng.module';
+import { CnpjService } from './cnpj/cnpj.service';
 
 @NgModule({
   declarations: [		
@@ -28,6 +29,7 @@ import { PrimeNGModule } from './primeng.module';
   ],
   providers: [
     CepService,
+    CnpjService,
     MessageService
   ],
   bootstrap: [AppComponent]
